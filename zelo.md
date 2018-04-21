@@ -228,6 +228,81 @@ Note:
 
 ### Architecture
 
+### Self play
+
+## Self play - why?
+\includegraphics[width=\textwidth]{openai.jpg}
+
+## Self play - what is it?
+no data? generate data yourself
+
+### Self play - where to use it?
+* Adversarial games
+* Dynamic games
+* Zero-sum games
+
+### Self play - where to avoid it?
+* non-perfect information
+  * could be expanded? (talk to later ;) )
+
+### Self play - other applications
+* openAI sumo
+* multi agent games
+* poker
+
+### Self play - how is it used in AlphaZero?
+Your past you sits on the other side of the board
+
+### Self play - how is it used in other algorithms?
+* soccer
+  * goal keeper
+* multi agent games
+  * other agents gathering food
+
+### The deeper side of RL
+
+### Deep Learning - abstract features
+* the DL magic depends on an objective
+* Learn representation that is required to achieve objective
+* RL a.k.a. MCST is the objective here!
+
+* directly from raw inputs
+* Using minimal domain knowledge (just symmetries)
+* Deep models allow for complex things RL algorithms to learn and represent complex input-output mappings
+* Deep models are what allow reinforcement learning algorithms to solve complex problems end to end!
+
+### Deep Learning - text
+* embeddings
+
+### Deep Learning - from pixels
+* standard CNN stuff
+* universal planning networks
+
+### Deep Learning - modeling the world (imagination?)
+robotic control
+world models
+
+### Deep Learning - some achievements
+Controlling robots (learning to walk)
+Superhuman performance on simple games with known rules
+Learn from imitation, someone who is doing that already (people watching)
+
+### Deep Learning - what doesn't work yet
+Safety
+Stability (robustness)
+Multi agent
+
+### Deep Learning - what doesn't work yet
+Humans can learn incredibly quickly
+Deep RL methods are usually slow
+Humans can reuse past knowledge
+
+### Deep Learning + RL = DeepRL
+
+### Other applications
+* Maximize ads money
+* Card Games (e.g. heartstone, magic)
+* etc
 
 ### Demo
 
